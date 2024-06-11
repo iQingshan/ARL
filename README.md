@@ -28,6 +28,8 @@ docker-compse up -d
 
 2.自行开放5003端口
 
+3.默认账号密码 admin/arlpass
+
 ## 问题
 1.external volume "arl db" not found
 

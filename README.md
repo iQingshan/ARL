@@ -31,6 +31,10 @@ docker-compse up -d
 ## 问题
 1.external volume "arl db" not found
 
-答：docker volume create arl db
+答：执行 docker volume create arl db
+
+2.提示配置yaml文件 'version'的报错
+
+答：删除配置yaml文件第一行version即可
 
 

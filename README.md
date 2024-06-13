@@ -39,4 +39,6 @@ docker-compse up -d
 
 答：删除配置yaml文件第一行version即可
 
+3.拉取镜像失败
 
+答：https://do.nark.eu.org/ dockerhub最新可用镜像源

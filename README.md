@@ -31,9 +31,9 @@ docker-compse up -d
 3.默认账号密码 admin/arlpass
 
 ## 问题
-1.external volume "arl db" not found
+1.external volume "arl_db" not found
 
-答：执行 docker volume create arl db
+答：执行 docker volume create arl_db
 
 2.提示配置yaml文件 'version'的报错
 

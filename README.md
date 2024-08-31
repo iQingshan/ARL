@@ -41,4 +41,4 @@ docker-compse up -d
 
 3.拉取镜像失败
 
-答：[https://do.nark.eu.org/](https://docker.1panel.live/) dockerhub最新可用镜像源
+答：https://docker.1panel.live/ dockerhub最新可用镜像源

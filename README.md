@@ -21,6 +21,11 @@ yum install docker
 ```shell
 docker-compse up -d
 ```
+### 4.添加指纹
+
+```shell
+python ./1.py https://127.0.0.1:5003/ admin arlpass old 
+```
 
 ## Tips
 

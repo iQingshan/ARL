@@ -15,7 +15,9 @@ yum install docker
 
 ### 2.配置config-docker.yaml
 
-
+```shell
+vim config-docker.yaml
+```
 ### 3.安装arl
 
 ```shell

@@ -3,7 +3,7 @@
 
 本仓库作者：青山
 
-后续可能进行二次开发！
+
 
 ## 安装教程
 
@@ -40,12 +40,27 @@ python ./1.py https://127.0.0.1:5003/ admin arlpass old
 ## 问题
 1.external volume "arl_db" not found
 
-答：执行 docker volume create arl_db
-
+答： 
+```shell
+docker volume create arl_db
+```
 2.提示配置yaml文件 'version'的报错
 
 答：删除配置yaml文件第一行version即可
 
 3.拉取镜像失败
 
-答：https://docker.1panel.live/ dockerhub最新可用镜像源
+答：https://docker.1panel.live/ （正常访问即可使用）
+```shell
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+    "registry-mirrors": [
+    	"https://docker.1panel.live/"
+    ]
+}
+EOF
+```
+重启docker即可
+```shell
+systemctl restart docker
+```

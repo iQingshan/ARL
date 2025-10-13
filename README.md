@@ -21,7 +21,9 @@ vim config-docker.yaml
 ### 3.安装arl
 
 ```shell
-docker-compse up -d
+docker volume create arl_db
+
+docker-compose up -d
 ```
 ### 4.添加指纹
 
@@ -31,7 +33,7 @@ python ./1.py https://127.0.0.1:5003/ admin arlpass old
 
 ## Tips
 
-1.docker与docker-compse都需要安装
+1.docker与docker-compose都需要安装
 
 2.自行开放5003端口
 
